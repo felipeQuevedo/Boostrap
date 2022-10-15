@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#div5{
+    background-image: url(../img/portada3);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        border:solid white 5px
+    }
+     #div2{
+        background-image: url(../img/img4\ .1.jpg   );
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        border:solid white 5px
+    }
+    #div2 h4{
+        color: #ffffff;
+        border:none;
+        text-align: center;
+        margin: 5rem 0;
+
+    }
+    #div1{
+        background-image: url(../img/portada.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 350px;
+        position: relative;
+        border:solid white 5px
+    }
+    #hijo{
+        background-color: rgb(252, 252, 241);
+        position: absolute;
+        height: 125px;
+        width: 400px;
+        top: 200px;
+    }
+    #div3{
+        background-image: url(../img/portada1);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        border:solid white 5px
+    }
+    #div3 h4{
+        color: #ffffff;
+        border: none;
+        text-align: center;
+        margin: 5rem 0;
+    }
+    #div4{
+        background-image: url(../img/portada2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        border:solid white 5px
+    }
+    #div4 h4{
+        color: #ffffff;
+        border: none;
+        text-align: center;
+        margin: 5rem 0;
+    }
+.titulo{
+    padding: 50px;
+    text-align: center;
+}
+.bruh{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+
+.imagen2{
+   height: 400px;
+}
+.imagen3{
+    height: 550px;
+    text-align: center;
+}
+@media (max-width:998px){
+    .bruh{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
